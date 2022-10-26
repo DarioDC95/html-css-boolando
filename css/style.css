@@ -151,7 +151,17 @@ footer {
     color: white;
 }
 
+footer h4 {
+    margin-bottom: 10px;
+}
+
+.img-social {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
 .fa-square-twitter, .fa-square-facebook, .fa-square-instagram, .fa-square-pinterest, .fa-square-youtube {
     font-size: larger;
+    margin-right: 5px;
 }
 
