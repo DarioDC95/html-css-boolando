@@ -83,6 +83,10 @@ main .row {
     display: none;
 }
 
+.fa-heart:hover {
+    color: red;
+}
+
 .img-product {
     position: relative;
 }
