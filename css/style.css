@@ -79,7 +79,7 @@ main .row {
     width: calc((100% - 30px) / 3);
 }
 
-.card-product:hover .img-vanish {
+.product:hover .img-vanish {
     display: none;
 }
 
