@@ -7,11 +7,18 @@
 }
 
 header {
-    background-color: orange;
-    padding: 15px 0;
+    background-color: whitesmoke;
+    height: 70px;
+}
+
+.fixed {
+    display: flex;
+    align-items: center;
     position: fixed;
     width: 100%;
+    height: 70px;
     z-index: 2;
+    background-color: #ffa500eb;
 }
 
 .flex {
@@ -68,7 +75,7 @@ nav a {
 /* corpo principale */
 
 main {
-    padding-top: 125px;
+    padding-top: 50px;
 }
 
 main .row {
