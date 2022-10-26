@@ -64,3 +64,68 @@ header .row {
 }
 
 /* corpo principale */
+
+main {
+    padding-top: 125px;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.card-product:hover .img-vanish {
+    display: none;
+}
+
+.img-product {
+    position: relative;
+}
+
+.img-product img {
+    width: 100%;
+}
+
+.img-vanish {
+    position: absolute;
+}
+
+.product {
+    position: relative;
+}
+
+.heart .fa-heart {
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.label {
+    position: absolute;
+    bottom: 50px;
+}
+
+.label .red-label {
+    color: white;
+    padding: 3px 10px;
+    background-color: red;
+}
+
+.label .green-label {
+    color: white;
+    padding: 3px 10px;
+    background-color: green;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.red-price {
+    color: red;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+}
