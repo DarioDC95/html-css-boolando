@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+}
+
+header {
+    background-color: orange;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header .row {
+    align-items: center;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.nav-top li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.nav-top a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.card-logo {
+    text-align: center;
+}
+
+.logo-boolean {
+    height: 30px;
+}
+
+.loghi-link {
+    color: white;
+    text-align: right;
+}
+
+.loghi-link .fa-heart {
+    margin: 0 2px;
+}
+
+/* corpo principale */
