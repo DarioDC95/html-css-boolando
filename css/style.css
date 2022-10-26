@@ -83,7 +83,7 @@ main .row {
     display: none;
 }
 
-.fa-heart:hover {
+section .fa-heart:hover {
     color: red;
 }
 
