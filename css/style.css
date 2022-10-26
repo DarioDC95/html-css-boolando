@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 header {
@@ -11,11 +11,13 @@ header {
     padding: 15px 0;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .container {
@@ -35,13 +37,13 @@ header .row {
     width: 50%;
 }
 
-.nav-top li {
+nav li {
     display: inline-block;
     list-style-type: none;
     margin-right: 10px;
 }
 
-.nav-top a {
+nav a {
     text-decoration-line: none;
     color: white;
 }
@@ -69,8 +71,12 @@ main {
     padding-top: 125px;
 }
 
+main .row {
+    margin-bottom: 50px;
+}
+
 .col-33 {
-    width: calc(100% / 3);
+    width: calc((100% - 30px) / 3);
 }
 
 .card-product:hover .img-vanish {
@@ -129,3 +135,19 @@ main {
 .line-through {
     text-decoration-line: line-through;
 }
+
+/* fondo pagina */
+footer {
+    background-color: black;
+    padding: 20px 0;
+    border-bottom: 3px solid white;
+}
+
+.font-white {
+    color: white;
+}
+
+.fa-square-twitter, .fa-square-facebook, .fa-square-instagram, .fa-square-pinterest, .fa-square-youtube {
+    font-size: larger;
+}
+
