@@ -125,12 +125,14 @@ section .fa-heart:hover {
 
 .label .red-label {
     color: white;
+    font-weight: 600;
     padding: 3px 10px;
     background-color: red;
 }
 
 .label .green-label {
     color: white;
+    font-weight: 600;
     padding: 3px 10px;
     background-color: green;
 }
