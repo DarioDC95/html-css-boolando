@@ -16,6 +16,8 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
     height: 70px;
     z-index: 2;
     background-color: #ffa500eb;
@@ -104,6 +106,8 @@ section .fa-heart:hover {
 
 .img-vanish {
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .product {
